@@ -1,0 +1,8 @@
+com\mycompany\souvenirsapp\JakartaRestConfiguration.class
+com\souvenirs\dao\QueryExecutor.class
+com\mycompany\souvenirsapp\resources\JakartaEE10Resource.class
+com\souvenirs\models\Souvenir.class
+com\souvenirs\models\Manufacturer.class
+com\souvenirs\controllers\MainController.class
+com\souvenirs\dao\DatabaseConnection.class
+com\souvenirs\dao\DataInserter.class
