@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+    <!-- Авторизация -->
+    <servlet>
+        <servlet-name>AuthServlet</servlet-name>
+        <servlet-class>com.medcard.controllers.AuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <!-- Добавление медкарты -->
+    <servlet>
+        <servlet-name>AddMedicalRecordServlet</servlet-name>
+        <servlet-class>com.medcard.controllers.AddMedicalRecordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddMedicalRecordServlet</servlet-name>
+        <url-pattern>/admin/addRecord</url-pattern>
+    </servlet-mapping>
+
+    <!-- Просмотр карты пациента -->
+    <servlet>
+        <servlet-name>UserMedicalRecordServlet</servlet-name>
+        <servlet-class>com.medcard.controllers.UserMedicalRecordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserMedicalRecordServlet</servlet-name>
+        <url-pattern>/user/medical</url-pattern>
+    </servlet-mapping>
+
+
+
+    <!-- Добавление записи в карту -->
+    <servlet>
+        <servlet-name>AddMedicalEntryServlet</servlet-name>
+        <servlet-class>com.medcard.controllers.AddMedicalEntryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddMedicalEntryServlet</servlet-name>
+        <url-pattern>/doctor/addEntry</url-pattern>
+    </servlet-mapping>
+
+    <!-- Локализация -->
+    <context-param>
+        <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
+        <param-value>messages</param-value>
+    </context-param>
+    <context-param>
+        <param-name>javax.servlet.jsp.jstl.fmt.fallbackLocale</param-name>
+        <param-value>en</param-value>
+    </context-param>
+
+    <!-- Главная страница -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>

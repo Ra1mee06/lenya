@@ -1,0 +1,15 @@
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\mycompany\medicalcart\JakartaRestConfiguration.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\controllers\AddUserServlet.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\controllers\UserMedicalRecordServlet.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\controllers\LogoutServlet.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\models\User.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\models\MedicalRecord.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\models\MedicalEntry.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\controllers\AddMedicalEntryServlet.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\dao\MedicalEntryDAO.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\controllers\AuthServlet.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\filters\LanguageFilter.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\dao\UserDAO.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\mycompany\medicalcart\resources\JakartaEE10Resource.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\controllers\AddMedicalRecordServlet.java
+C:\Users\User\Documents\NetBeansProjects\MedicalCart\src\main\java\com\medcard\dao\MedicalRecordDAO.java

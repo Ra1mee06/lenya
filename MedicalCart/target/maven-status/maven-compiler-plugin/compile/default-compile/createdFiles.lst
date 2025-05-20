@@ -1,0 +1,15 @@
+com\medcard\dao\UserDAO.class
+com\medcard\dao\MedicalEntryDAO.class
+com\medcard\controllers\AddMedicalRecordServlet.class
+com\medcard\filters\LanguageFilter.class
+com\medcard\controllers\AddUserServlet.class
+com\medcard\models\MedicalRecord.class
+com\medcard\controllers\AuthServlet.class
+com\medcard\dao\MedicalRecordDAO.class
+com\mycompany\medicalcart\JakartaRestConfiguration.class
+com\medcard\controllers\UserMedicalRecordServlet.class
+com\medcard\models\User.class
+com\mycompany\medicalcart\resources\JakartaEE10Resource.class
+com\medcard\controllers\AddMedicalEntryServlet.class
+com\medcard\controllers\LogoutServlet.class
+com\medcard\models\MedicalEntry.class
